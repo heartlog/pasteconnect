@@ -51,17 +51,20 @@ class PastebinAPI:
             return f"[{self.username}] Invalid account."
 
 if __name__ == "__main__":
-    username = "your_username"
-    password = "your_password"
-    api_key = "your_api_key"
 
-    pastebin = PastebinAPI(username, password, api_key)
-    account_status = pastebin.check_account()
-    print(account_status)
+"""
+username = "your_username"
+password = "your_password"
+api_key = "your_api_key"
 
-    privacy = 0  # Set the privacy level (0 for public)
-    title = "My Paste Title"
-    content = "This is the content of my paste."
+pastebin = PastebinAPI(username, password, api_key)
+account_status = pastebin.check_account()
+print(account_status)
 
-    paste_url = pastebin.create_paste(privacy, title, content)
-    print(f"Paste created: {paste_url}")
+privacy = 0  # Set the privacy level (0 for public)
+title = "My Paste Title"
+content = "This is the content of my paste."
+
+paste_url = pastebin.create_paste(privacy, title, content)
+print(f"Paste created: {paste_url}
+"""
