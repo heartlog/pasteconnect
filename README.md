@@ -1,11 +1,9 @@
-# simple heiiiioptgh package
+# simple pasteconnect package
 
-## usage example
+## what can this do ?
+paste code in pastebin.com with api.
 
+## Usage example
 ```py
-from heiiiioptgh import circle_area
-ans = circle_area(7)
-print(ans)
+# will be added shortly..
 ```
-
-> 153.93804002589985
