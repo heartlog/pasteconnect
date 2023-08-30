@@ -17,4 +17,4 @@ paste_url = pastebin.create_paste(privacy, title, content)
 print(f"Paste created: {paste_url}")
 ```
 
-made with ❤️ by [Heartlog](https://github.com/heartlog/)
+Made with ❤️ by [Heartlog](https://github.com/heartlog/)
