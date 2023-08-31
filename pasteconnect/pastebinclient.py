@@ -44,6 +44,26 @@ class PastebinAPI:
         else:
             return f"An error occurred: {paste.text}"
 
+    def create_paste_adv(self, privacy, title, content, expire="N", format="php"):
+        if not all((self.api_key, self.user_key, privacy, title, content)):
+            raise ValueError("API key, user key, privacy, title, and content must be specified.")
+        data = {
+            "api_option": "paste",
+            "api_dev_key": self.api_key,
+            "api_user_key": self.user_key,
+            "api_paste_code": content,
+            "api_paste_name": title,
+            "api_paste_expire_date": expire,
+            "api_paste_format": format,
+            "api_paste_private": privacy
+        }
+        paste = requests.post("https://pastebin.com/api/api_post.php", data=data)
+
+        if "https://pastebin.com" in paste.text:
+            return paste.text
+        else:
+            return f"An error occurred: {paste.text}"
+
     def check_account(self):
         if self.user_key:
             return f"[{self.username}] Valid account. User key: {self.user_key}"
