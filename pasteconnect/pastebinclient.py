@@ -87,7 +87,7 @@ class PastebinAPI:
             return f"An error occurred: {paste.text}"
     
     
-    def get_content(url):
+    def get_paste(url):
         if 'pastebin.com' in url:
             parts = url.split('/')
             if len(parts) >= 4:
