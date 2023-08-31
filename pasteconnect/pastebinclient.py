@@ -61,7 +61,6 @@ class PastebinAPI:
             "api_paste_key": pastekey
         }
         paste = requests.post("https://pastebin.com/api/api_post.php", data=data)
-
         if "Paste Removed" in paste.text:
             return paste.text
         else:
