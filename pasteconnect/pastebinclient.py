@@ -106,7 +106,6 @@ def get_paste_key(url):
     parts = url.split("/")
     return parts[-1]
 
-if __name__ == "__main__":
 
 
 
