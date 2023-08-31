@@ -108,7 +108,7 @@ def get_paste_key(url):
 
 if __name__ == "__main__":
 
-"""
+a = """
 username = "your_username"
 password = "your_password"
 api_key = "your_api_key"
