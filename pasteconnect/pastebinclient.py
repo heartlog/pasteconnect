@@ -49,7 +49,25 @@ class PastebinAPI:
             return f"[{self.username}] Valid account. User key: {self.user_key}"
         else:
             return f"[{self.username}] Invalid account."
+    
+    def delete_paste(self, url):
+        if not all((self.api_key, self.user_key, url)):
+            raise ValueError("API key, user key and deleteURL must be specified.")
+        pastekey = get_paste_key(url)
+        data = {
+            "api_option": "delete",
+            "api_dev_key": self.api_key,
+            "api_user_key": self.user_key,
+            "api_paste_key": pastekey
+        }
+        paste = requests.post("https://pastebin.com/api/api_post.php", data=data)
 
+        if "Paste Removed" in paste.text:
+            return paste.text
+        else:
+            return f"An error occurred: {paste.text}"
+    
+    
     def get_raw_content(url):
         if 'pastebin.com' in url:
             parts = url.split('/')
@@ -65,7 +83,9 @@ class PastebinAPI:
         else:
             return "Invalid URL"
 
-        
+def get_paste_key(url):
+    parts = url.split("/")
+    return parts[-1]
 
 if __name__ == "__main__":
 
