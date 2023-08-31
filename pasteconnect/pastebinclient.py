@@ -1,6 +1,6 @@
 import requests
 
-class PastebinAPI:
+class PasteConn:
     def __init__(self, username, password, api_key):
         self.username = username
         self.password = password
