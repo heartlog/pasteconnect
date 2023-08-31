@@ -6,6 +6,11 @@
 paste code in [pastebin.com]() with api.
 Read text of pastebin paste.
 
+## Install
+```
+pip install pasteconnect
+```
+
 ## Usage example
 ```py
 pastebin = PastebinAPI(username, password, api_key)
