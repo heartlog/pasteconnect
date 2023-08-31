@@ -66,7 +66,7 @@ class PasteConn:
         else:
             return f"An error occurred: {paste.text}"
             
-# check account Validity
+# Check account Validity
     def check_account(self):
         if self.user_key:
             return f"[{self.username}] Valid account. User key: {self.user_key}"
@@ -90,7 +90,7 @@ class PasteConn:
         else:
             return f"An error occurred: {paste.text}"
     
-# get raw content
+# Get raw content
     def get_content(url):
         if 'pastebin.com' in url:
             parts = url.split('/')
