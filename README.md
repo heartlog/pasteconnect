@@ -1,7 +1,8 @@
 # Pasteconnect package
 
 ## What can this package do ?
-paste code in [pastebin.com]() with api.
+paste code in [pastebin.com]() with api. 
+Read text of pastebin paste.
 
 ## Usage example
 ```py
