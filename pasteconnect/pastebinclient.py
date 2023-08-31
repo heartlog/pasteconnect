@@ -44,7 +44,7 @@ class PastebinAPI:
         else:
             return f"An error occurred: {paste.text}"
 
-    def create_paste_adv(self, privacy, title, content, expire="N", format="php"):
+    def paste_adv(self, privacy, title, content, expire="N", format="php"):
         if not all((self.api_key, self.user_key, privacy, title, content)):
             raise ValueError("API key, user key, privacy, title, and content must be specified.")
         data = {
