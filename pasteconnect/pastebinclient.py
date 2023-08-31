@@ -109,19 +109,18 @@ def get_paste_key(url):
 if __name__ == "__main__":
 
 
-a = """
-username = "your_username"
-password = "your_password"
-api_key = "your_api_key"
 
-pastebin = PastebinAPI(username, password, api_key)
-account_status = pastebin.check_account()
-print(account_status)
-
-privacy = 0  # Set the privacy level (0 for public)
-title = "My Paste Title"
-content = "This is the content of my paste."
-
-paste_url = pastebin.create_paste(privacy, title, content)
-print(f"Paste created: {paste_url}
-"""
+# username = "your_username"
+# password = "your_password"
+# api_key = "your_api_key"
+# 
+# pastebin = PastebinAPI(username, password, api_key)
+# account_status = pastebin.check_account()
+# print(account_status)
+# 
+# privacy = 0  # Set the privacy level (0 for public)
+# title = "My Paste Title"
+# content = "This is the content of my paste."
+# 
+# paste_url = pastebin.create_paste(privacy, title, content)
+# print(f"Paste created: {paste_url}
