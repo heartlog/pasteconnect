@@ -123,4 +123,4 @@ if __name__ == "__main__":
 # content = "This is the content of my paste."
 # 
 # paste_url = pastebin.create_paste(privacy, title, content)
-# print(f"Paste created: {paste_url}
+# print(f"Paste created: {paste_url}")
