@@ -23,6 +23,7 @@ class PastebinAPI:
         else:
             return None
 
+# Normal paste
     def paste(self, privacy, title, content):
         if not all((self.api_key, self.user_key, privacy, title, content)):
             raise ValueError("API key, user key, privacy, title, and content must be specified.")
@@ -44,6 +45,7 @@ class PastebinAPI:
         else:
             return f"An error occurred: {paste.text}"
 
+# Advance usage
     def paste_adv(self, privacy, title, content, expire="N", format="php"):
         if not all((self.api_key, self.user_key, privacy, title, content)):
             raise ValueError("API key, user key, privacy, title, and content must be specified.")
@@ -63,13 +65,15 @@ class PastebinAPI:
             return paste.text
         else:
             return f"An error occurred: {paste.text}"
-
+            
+# check account Validity
     def check_account(self):
         if self.user_key:
             return f"[{self.username}] Valid account. User key: {self.user_key}"
         else:
             return f"[{self.username}] Invalid account."
-    
+
+# Delete paste
     def delete_paste(self, url):
         if not all((self.api_key, self.user_key, url)):
             raise ValueError("API key, user key and deleteURL must be specified.")
@@ -86,7 +90,7 @@ class PastebinAPI:
         else:
             return f"An error occurred: {paste.text}"
     
-    
+# get raw content
     def get_content(url):
         if 'pastebin.com' in url:
             parts = url.split('/')
