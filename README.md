@@ -50,8 +50,15 @@ print(f"Paste created: {paste_url}")
 `username` - `password` - `api_key` →  [Getting Started](#getting-started)
 
 #### `pastebin.check_account()`
-
 Check validity of pastebin.com account.
+
+#### `pastebin.authenticate()`
+
+#### `pastebin.create_paste()`
+
+#### `pastebin.delete_paste()`
+
+#### `pastebin.get_raw_content()`
 
 
 # Made with ❤️ by [Heartlog](https://github.com/heartlog/)
