@@ -51,7 +51,7 @@ print(f"Paste created: {paste_url}")
 Check validity of pastebin.com account.
 
 #### `pastebin.authenticate()`
-
+--
 
 #### `pastebin.create_paste(privacy, title, content)`
 ![privacy](https://img.shields.io/badge/privacy-pink)
