@@ -24,7 +24,9 @@ $ pip install git+https://github.com/heartlog/pasteconnect
 ```py
 from pasteconnect import PasteConn
 
-pastebin = PasteConn(username, password, api_key)
+# Sync Client
+PasteConn = PasteConn(username, password, api_key)
+# Account_status
 account_status = pastebin.check_account()
 print(account_status)
 
