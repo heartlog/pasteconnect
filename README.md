@@ -116,4 +116,4 @@ print(result)  # Response: "Content of paste"
 # Made with ❤️ by [Heartlog](https://github.com/heartlog/)
 
 ## Special Thanks 
-venaxyt for https://pypi.org/project/pastebinapi. Helped a lot in project. 😁
+venaxyt for [pastebinapi](https://github.com/venaxyt/pastebinapi/). Helped a lot in project. 😁
