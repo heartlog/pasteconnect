@@ -21,7 +21,7 @@ $ pip install git+https://github.com/heartlog/pasteconnect
 ```
 ## Getting Started
 > To get(create) your `username`, `password` » login to your [pastebin account](https://pastebin.com/signup)
->> after creating your account, [head over to the api documentation](https://pastebin.com/doc_api) and grab your api key under `Your Unique Developer API Key`
+>> after creating your account, [head over to the api documentation](https://pastebin.com/doc_api) and grab your `api_key` under __Your Unique Developer API Key__
 
 ## Usage example
 ```py
