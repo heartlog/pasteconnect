@@ -56,7 +56,8 @@ Check validity of pastebin.com account.
 
 #### `pastebin.delete_paste()`
 
-#### `pastebin.get_raw_content()`
+#### `pastebin.get_raw_content(url)`
 
+![Static Badge](https://img.shields.io/badge/url-blue)
 
 # Made with ❤️ by [Heartlog](https://github.com/heartlog/)
