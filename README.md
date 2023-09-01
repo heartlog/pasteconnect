@@ -1,6 +1,6 @@
 # Pasteconnect package
 
-[![PyPI](https://img.shields.io/pypi/v/pasteconnect?color=red)](https://pypi.org/project/pasteconnect/)
+[![PyPI](https://img.shields.io/pypi/v/pasteconnect?color=blue)](https://pypi.org/project/pasteconnect/)
 ## What can this package do ?
 paste code in [pastebin.com]() with api.
 Read text of pastebin paste.
