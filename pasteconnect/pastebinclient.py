@@ -25,7 +25,7 @@ class PasteConn:
             return None
 
 # Normal paste
-    def paste(self, privacy, title, content):
+    def create_paste(self, privacy, title, content):
         if not all((self.api_key, self.user_key, privacy, title, content)):
             raise ValueError("API key, user key, privacy, title, and content must be specified.")
 
@@ -47,7 +47,7 @@ class PasteConn:
             return f"An error occurred: {paste.text}"
 
 # Advance usage
-    def paste_adv(self, privacy, title, content, expire="N", format="php"):
+    def create_paste_adv(self, privacy, title, content, expire="N", format="php"):
         if not all((self.api_key, self.user_key, privacy, title, content)):
             raise ValueError("API key, user key, privacy, title, and content must be specified.")
         data = {
