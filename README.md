@@ -22,7 +22,9 @@ $ pip install git+https://github.com/heartlog/pasteconnect
 
 ## Usage example
 ```py
-pastebin = PastebinAPI(username, password, api_key)
+from pasteconnect import PasteConn
+
+pastebin = PasteConn(username, password, api_key)
 account_status = pastebin.check_account()
 print(account_status)
 
