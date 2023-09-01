@@ -47,7 +47,8 @@ print(f"Paste created: {paste_url}")
 ![Username](https://img.shields.io/badge/Username-blue)
 ![Password](https://img.shields.io/badge/password-blue)
 ![Api_key](https://img.shields.io/badge/api__key-blue)
-`username` - `password` - `api_key` →  [Getting Started](#getting-started)
+
+Refer [Getting Started](#getting-started)
 
 #### `pastebin.check_account()`
 Check validity of pastebin.com account.
