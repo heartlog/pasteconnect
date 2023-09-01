@@ -74,7 +74,7 @@ print(result)  # Response: '[heartlog] is Valid Account. User key : "user_key"'
 Get user_key using give credentials.
 ```py
 result = pastebin.authenticate()
-print(result)  # Response: ""
+print(result)  # Response: "user_key"
 ```
 
 #### `pastebin.create_paste(privacy, title, content)`
