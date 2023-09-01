@@ -52,9 +52,12 @@ Check validity of pastebin.com account.
 
 #### `pastebin.authenticate()`
 
-#### `pastebin.create_paste()`
+#### `pastebin.create_paste(privacy, title, content)`
+![privacy](https://img.shields.io/badge/privacy-pink)
+![Static Badge](https://img.shields.io/badge/title-blue)
+![Static Badge](https://img.shields.io/badge/content-purple)
 
-#### `pastebin.delete_paste()`
+#### `pastebin.delete_paste(url)`
 ![Static Badge](https://img.shields.io/badge/url-blue)
 
 #### `pastebin.get_raw_content(url)`
