@@ -52,6 +52,7 @@ print(f"Paste created: {paste_url}")
 Refer [Getting Started](#getting-started)
 
 #### `pastebin.check_account()`
+![dash](https://img.shields.io/badge/-----blue)
 Check validity of pastebin.com account.
 
 #### `pastebin.authenticate()`
