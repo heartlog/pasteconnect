@@ -82,6 +82,16 @@ print(result)  # Response: "user_key"
 ![title](https://img.shields.io/badge/title-blue)
 ![content](https://img.shields.io/badge/content-purple)
 
+```py
+privacy = 
+title = 
+content = """
+Hello
+This is multiline
+"""
+pastebin.create_paste(privacy, title, content)
+```
+
 #### `pastebin.delete_paste(url)`
 ![Static Badge](https://img.shields.io/badge/url-blue)
 
