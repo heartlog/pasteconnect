@@ -19,13 +19,16 @@ Install from source
 ```shell
 $ pip install git+https://github.com/heartlog/pasteconnect
 ```
+## Getting Started
+> To get your pastebin api key, create or login to your pastebin account [here](https://pastebin.com/signup)
+>> after creating your account, [head over to the api documentation](https://pastebin.com/doc_api) and grab your api key under `Your Unique Developer API Key`
 
 ## Usage example
 ```py
 from pasteconnect import PasteConn
 
 # Sync Client
-PasteConn = PasteConn(username, password, api_key)
+pastebin = PasteConn(username, password, api_key)
 # Account_status
 account_status = pastebin.check_account()
 print(account_status)
@@ -37,5 +40,10 @@ content = "This is the content of my paste."
 paste_url = pastebin.create_paste(privacy, title, content)
 print(f"Paste created: {paste_url}")
 ```
+
+## `client = PasteConn(username, password, api_key)`
+`username` -
+`password` -
+`api_key` - 
 
 # Made with ❤️ by [Heartlog](https://github.com/heartlog/)
