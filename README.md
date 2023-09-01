@@ -88,7 +88,7 @@ privacy = 1
 title = "Title of paste"
 content = """
 Hello
-This is multiline
+This is multiline text
 """
 pastebin.create_paste(privacy, title, content)
 ```
