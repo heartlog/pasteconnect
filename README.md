@@ -63,6 +63,6 @@ Check validity of pastebin.com account.
 
 #### `pastebin.get_raw_content(url)`
 
-![Static Badge](https://img.shields.io/badge/url-blue)
+![url](https://img.shields.io/badge/url-purple)
 
 # Made with ❤️ by [Heartlog](https://github.com/heartlog/)
