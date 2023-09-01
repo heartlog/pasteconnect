@@ -41,7 +41,7 @@ paste_url = pastebin.create_paste(privacy, title, content)
 print(f"Paste created: {paste_url}")
 ```
 
-> `client = PasteConn(username, password, api_key)`
+## `client = PasteConn(username, password, api_key)`
 
 `username` -
 `password` -
