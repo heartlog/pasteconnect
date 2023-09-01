@@ -42,9 +42,7 @@ paste_url = pastebin.create_paste(privacy, title, content)
 print(f"Paste created: {paste_url}")
 ```
 
-### `pastebin = PasteConn(username, password, api_key)`
-
-![Static Badge](https://img.shields.io/badge/Required-eb2525)
+### `pastebin = PasteConn(username, password, api_key)` ![Static Badge](https://img.shields.io/badge/Required-eb2525)
  *required for other modules to work
 
 `username` - `password` - `api_key` →  [Getting Started](#getting-started)
