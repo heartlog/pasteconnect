@@ -42,14 +42,16 @@ paste_url = pastebin.create_paste(privacy, title, content)
 print(f"Paste created: {paste_url}")
 ```
 
-### `client = PasteConn(username, password, api_key)`
+### `pastebin = PasteConn(username, password, api_key)`
 
 ![Static Badge](https://img.shields.io/badge/Required-eb2525)
  *required for other modules to work
 
 `username` - `password` - `api_key` →  [Getting Started](#getting-started)
 
-#### hello
+#### `pastebin.check_account()`
+
+Check validity of pastebin.com account.
 
 
 # Made with ❤️ by [Heartlog](https://github.com/heartlog/)
