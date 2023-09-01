@@ -83,8 +83,9 @@ print(result)  # Response: "user_key"
 ![content](https://img.shields.io/badge/content-purple)
 
 ```py
-privacy = 
-title = 
+# 0 : public | 1 : unlisted | 2 : private
+privacy = 1
+title = "Title of paste"
 content = """
 Hello
 This is multiline
