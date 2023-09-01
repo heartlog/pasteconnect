@@ -29,7 +29,7 @@ from pasteconnect import PasteConn
 
 # Sync Client
 pastebin = PasteConn(username, password, api_key)
-# Account_status
+# Account_status(check validity of account)
 account_status = pastebin.check_account()
 print(account_status)
 
@@ -37,6 +37,7 @@ privacy = 0  # Set the privacy level (0 for public)
 title = "My Paste Title"
 content = "This is the content of my paste."
 
+# Paste text to pastebin
 paste_url = pastebin.create_paste(privacy, title, content)
 print(f"Paste created: {paste_url}")
 ```
