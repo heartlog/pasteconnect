@@ -43,6 +43,7 @@ print(f"Paste created: {paste_url}")
 
 ### `client = PasteConn(username, password, api_key)`
 
+![Static Badge](https://img.shields.io/badge/Required-eb2525)
 `username` - `password` - `api_key` →  [Getting Started](#getting-started)
 
 # Made with ❤️ by [Heartlog](https://github.com/heartlog/)
