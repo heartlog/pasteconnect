@@ -51,6 +51,15 @@ print(f"Paste created: {paste_url}")
 
 Refer [Getting Started](#getting-started)
 
+```py
+username = "username"
+password = "*******"
+api_key = "123456abcdefg"
+# Define Client
+pastebin = PasteConn(username, password, api_key)
+```
+
+
 #### `pastebin.check_account()`
 ![dash](https://img.shields.io/badge/-----grey)
 
