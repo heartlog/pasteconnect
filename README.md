@@ -7,7 +7,8 @@ Read text of pastebin paste.
 
 [![Licence](https://img.shields.io/pypi/l/pasteconnect)]()
 ## Installation
-**Python 3.6 or higher is required.**
+**Python 3.7 or higher is required.**
+[![Python](https://img.shields.io/pypi/pyversions/pasteconnect?style=flat-square&logo=python&label=PYTHON&color=blue)](https://pypi.org/project/pasteconnect/)
 
 Install from PyPI
 ```shell
