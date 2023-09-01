@@ -52,7 +52,7 @@ print(f"Paste created: {paste_url}")
 Refer [Getting Started](#getting-started)
 
 ```py
-username = "username"
+username = "heartlog"
 password = "*******"
 api_key = "123456abcdefg"
 # Define Client
@@ -64,7 +64,11 @@ pastebin = PasteConn(username, password, api_key)
 ![dash](https://img.shields.io/badge/-----grey)
 
 Check validity of pastebin.com account.
-
+```py
+result = pastebin.check_account()
+print(result)
+# Response: '[heartlog] is Valid Account. User key : "unique_user_key"'
+```
 #### `pastebin.authenticate()`
 ![dash](https://img.shields.io/badge/-----grey)
 
