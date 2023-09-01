@@ -52,11 +52,12 @@ print(f"Paste created: {paste_url}")
 Refer [Getting Started](#getting-started)
 
 #### `pastebin.check_account()`
-![dash](https://img.shields.io/badge/-----blue)
+![dash](https://img.shields.io/badge/-----grey)
+
 Check validity of pastebin.com account.
 
 #### `pastebin.authenticate()`
---
+![dash](https://img.shields.io/badge/-----grey)
 
 #### `pastebin.create_paste(privacy, title, content)`
 ![privacy](https://img.shields.io/badge/privacy-pink)
