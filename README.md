@@ -7,6 +7,7 @@
 paste code in [pastebin.com]() with api.
 Read text of pastebin paste.
 
+[![Licence](https://img.shields.io/pypi/l/pasteconnect)]()
 ## Installation
 **Python 3.6 or higher is required.**
 
