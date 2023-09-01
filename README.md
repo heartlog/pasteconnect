@@ -67,6 +67,12 @@ Check validity of pastebin.com account.
 #### `pastebin.delete_paste(url)`
 ![Static Badge](https://img.shields.io/badge/url-blue)
 
+```py
+url = "https://pastebin.com/kZATAWhe"
+result = pastebin.delete_paste(url)
+print(result)  # Response: "Paste Removed"
+```
+
 #### `pastebin.get_raw_content(url)`
 
 ![url](https://img.shields.io/badge/url-purple)
