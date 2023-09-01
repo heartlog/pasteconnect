@@ -42,9 +42,7 @@ print(f"Paste created: {paste_url}")
 ```
 
 ### `client = PasteConn(username, password, api_key)`
-as per [Getting Started](#getting-started)
-`username` - Your 
-`password` -
-`api_key` - 
+
+`username` - `password` - `api_key` →  [Getting Started](#getting-started)
 
 # Made with ❤️ by [Heartlog](https://github.com/heartlog/)
