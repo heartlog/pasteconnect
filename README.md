@@ -66,8 +66,7 @@ pastebin = PasteConn(username, password, api_key)
 Check validity of pastebin.com account.
 ```py
 result = pastebin.check_account()
-print(result)
-# Response: '[heartlog] is Valid Account. User key : "unique_user_key"'
+print(result)  # Response: '[heartlog] is Valid Account. User key : "unique_user_key"'
 ```
 #### `pastebin.authenticate()`
 ![dash](https://img.shields.io/badge/-----grey)
