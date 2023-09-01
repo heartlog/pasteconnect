@@ -70,7 +70,7 @@ class PasteConn:
 # Check account Validity
     def check_account(self):
         if self.user_key:
-            return f"[{self.username}] is Valid account. User key: {self.user_key}"
+            return f"[{self.username}] is Valid Account. User key: {self.user_key}"
         else:
             return f"[{self.username}] Invalid account."
 
