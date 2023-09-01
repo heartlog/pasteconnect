@@ -2,13 +2,22 @@
 
 [![PyPI version](https://badge.fury.io/py/pasteconnect.svg)](https://badge.fury.io/py/pasteconnect)
 
+[![PyPI](https://img.shields.io/pypi/v/pasteconnect?style=flat-square)](https://pypi.org/project/pasteconnect/)
 ## What can this package do ?
 paste code in [pastebin.com]() with api.
 Read text of pastebin paste.
 
-## Install
+## Installation
+**Python 3.6 or higher is required.**
+
+Install from PyPI
+```shell
+$ pip install pasteconnect
 ```
-pip install pasteconnect
+
+Install from source
+```shell
+$ pip install git+https://github.com/heartlog/pasteconnect
 ```
 
 ## Usage example
