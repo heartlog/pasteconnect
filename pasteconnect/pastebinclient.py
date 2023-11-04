@@ -1,6 +1,6 @@
 import requests
 import os
-
+from .reqsession import reqsession, Advreqsession
 
 class PasteConn:
     def __init__(self, username, password, api_key):
