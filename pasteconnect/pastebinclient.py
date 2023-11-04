@@ -1,10 +1,12 @@
 import requests
+import os
+
 
 class PasteConn:
     def __init__(self, username, password, api_key):
-        self.username = username
-        self.password = password
-        self.api_key = api_key
+        self.username = username or os.environ['pastebin_username']
+        self.password = password or os.environ['pastebin_password']
+        self.api_key = api_key or os.environ['pastebin_key']
         self.user_key = self.authenticate()
 
 # For UserKey
