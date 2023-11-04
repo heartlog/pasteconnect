@@ -99,7 +99,7 @@ class PasteConn:
             parts = url.split('/')
             if len(parts) >= 4:
                 new_url = f"https://pastebin.com/raw/{parts[-1]}"
-                response = requests.get(new_url)
+                response = Advreqsession(new_url)
                 if response.status_code == 200:
                     return response.text
                 else:
