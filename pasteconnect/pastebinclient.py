@@ -34,6 +34,10 @@ class PasteConn:
 
 # Check account Validity
     def check_account(self):
+        """
+        client.check_account()
+        parm- No req
+        """
         if self.user_key:
             return f"[{self.username}] is Valid Account. User key: {self.user_key}"
         else:
@@ -41,6 +45,9 @@ class PasteConn:
 
 # Normal paste
     def create_paste(self, privacy, title, content):
+        """
+        client.create_paste(privacy, title, content)
+        """
         if not all((self.api_key, self.user_key, privacy, title, content)):
             raise ValueError("API key, user key, privacy, title, and content must be specified.")
 
