@@ -141,6 +141,22 @@ class PasteConn:
         else:
             return "Invalid URL"
 
+def get_raw_content(self, url):
+    if 'pastebin.com' in url:
+        parts = url.split('/')
+        if len(parts) >= 4:
+            new_url = f"https://pastebin.com/raw/{parts[-1]}"
+            response = Advreqsession(new_url)
+            if response.status_code == 200:
+                return response.text
+            else:
+                return f"Failed to retrieve content from {new_url} (HTTP {response.status_code})"
+        else:
+            return "Invalid pastebin URL"
+    else:
+        return "Invalid URL"
+
+
 def get_paste_key(url):
     parts = url.split("/")
     return parts[-1]
