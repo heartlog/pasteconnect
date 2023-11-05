@@ -46,6 +46,12 @@ class PasteConn:
 # Normal paste
     def create_paste(self, privacy, title, content):
         """
+        privacy = 1
+        title = "Title of paste"
+        content = '''
+        Hello
+        This i's multiline text
+        '''
         client.create_paste(privacy, title, content)
         """
         if not all((self.api_key, self.user_key, privacy, title, content)):
