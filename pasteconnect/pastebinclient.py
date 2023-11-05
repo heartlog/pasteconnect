@@ -3,6 +3,9 @@ import os
 from .reqsession import reqsession, Advreqsession
 
 class PasteConn:
+    """
+    
+    """
     def __init__(self, username, password, api_key):
         self.username = username or os.environ['pastebin_username']
         self.password = password or os.environ['pastebin_password']
