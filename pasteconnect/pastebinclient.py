@@ -33,6 +33,13 @@ class PasteConn:
         else:
             return None
 
+# Check account Validity
+    def check_account(self):
+        if self.user_key:
+            return f"[{self.username}] is Valid Account. User key: {self.user_key}"
+        else:
+            return f"[{self.username}] Invalid account."
+
 # Normal paste
     def create_paste(self, privacy, title, content):
         if not all((self.api_key, self.user_key, privacy, title, content)):
@@ -75,13 +82,6 @@ class PasteConn:
             return paste.text
         else:
             return f"An error occurred: {paste.text}"
-            
-# Check account Validity
-    def check_account(self):
-        if self.user_key:
-            return f"[{self.username}] is Valid Account. User key: {self.user_key}"
-        else:
-            return f"[{self.username}] Invalid account."
 
 # Delete paste
     def delete_paste(self, url):
