@@ -76,6 +76,15 @@ class PasteConn:
 
 # Advance usage
     def create_paste_adv(self, privacy, title, content, expire="N", format="php"):
+        """
+        privacy = 1
+        title = "Title of paste"
+        content = '''
+        Hello
+        This i's multiline text
+        '''
+        client.create_paste_adv(privacy, title, content, expire"N", format="php")
+        """
         if not all((self.api_key, self.user_key, privacy, title, content)):
             raise ValueError("API key, user key, privacy, title, and content must be specified.")
         data = {
@@ -97,6 +106,9 @@ class PasteConn:
 
 # Delete paste
     def delete_paste(self, url):
+        """
+        client.delete_paste(url)
+        """
         if not all((self.api_key, self.user_key, url)):
             raise ValueError("API key, user key and deleteURL must be specified.")
         pastekey = get_paste_key(url)
