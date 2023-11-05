@@ -11,7 +11,7 @@ class PasteConn:
         self.username = username or os.environ['pastebin_username']
         self.password = password or os.environ['pastebin_password']
         self.api_key = api_key or os.environ['pastebin_key']
-        self.user_key = self.authenticate()
+        self.user_key = self.auth()
 
 # For UserKey
     def auth(self):
