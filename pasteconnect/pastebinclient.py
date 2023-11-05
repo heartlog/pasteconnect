@@ -26,7 +26,7 @@ class PasteConn:
             "api_user_name": self.username,
             "api_user_password": self.password,
         }
-        login = requests.post("https://pastebin.com/api/api_login.php", data=login_data)
+        login = Advpostsession("https://pastebin.com/api/api_login.php", data=login_data)
 
         if login.status_code == 200:
             return login.text
@@ -57,8 +57,6 @@ class PasteConn:
         }
         # paste = requests.post("https://pastebin.com/api/api_post.php", data=data)
         paste = Advpostsession("https://pastebin.com/api/api_post.php", data=data)
-        
-
         if "https://pastebin.com" in paste.text:
             return paste.text
         else:
@@ -78,7 +76,7 @@ class PasteConn:
             "api_paste_format": format,
             "api_paste_private": privacy
         }
-        paste = requests.post("https://pastebin.com/api/api_post.php", data=data)
+        paste = Advpostsession("https://pastebin.com/api/api_post.php", data=data)
 
         if "https://pastebin.com" in paste.text:
             return paste.text
@@ -96,7 +94,7 @@ class PasteConn:
             "api_user_key": self.user_key,
             "api_paste_key": pastekey
         }
-        paste = requests.post("https://pastebin.com/api/api_post.php", data=data)
+        paste = Advpostsession("https://pastebin.com/api/api_post.php", data=data)
         if "Paste Removed" in paste.text:
             return paste.text
         else:
