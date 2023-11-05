@@ -10,7 +10,10 @@ class PasteConn:
         self.user_key = self.authenticate()
 
 # For UserKey
-    def authenticate(self):
+    def auth(self):
+        """
+        client.auth()
+        """
         if not all((self.username, self.password, self.api_key)):
             raise ValueError("Username, password, and API key must be specified.")
 
