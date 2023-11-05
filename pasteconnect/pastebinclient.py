@@ -1,6 +1,6 @@
 import requests
 import os
-from .reqsession import reqsession, Advreqsession
+from .reqsession import reqsession, Advreqsession, postsession, Advpostsession
 
 class PasteConn:
     """
