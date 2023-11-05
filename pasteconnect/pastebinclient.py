@@ -4,6 +4,7 @@ from .reqsession import reqsession, Advreqsession
 
 class PasteConn:
     """
+    pastebin = PastebinAPI(username, password, api_key)
     
     """
     def __init__(self, username, password, api_key):
