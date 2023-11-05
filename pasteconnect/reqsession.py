@@ -29,7 +29,7 @@ def Advreqsession(url, params=None):
     finally:
         session.close()
         
-def postsession(url, data, files=None):
+def postsession(url, data=None, files=None):
     session = requests.Session()
     session.headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.1.2222.33 Safari/537.36",
