@@ -101,6 +101,7 @@ class PasteConn:
             return f"An error occurred: {paste.text}"
     
 # Get raw content
+#* Make it independet from class .
     def get_raw_content(self, url):
         if 'pastebin.com' in url:
             parts = url.split('/')
