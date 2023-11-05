@@ -55,7 +55,9 @@ class PasteConn:
             "api_paste_format": "php",
             "api_paste_private": privacy
         }
-        paste = requests.post("https://pastebin.com/api/api_post.php", data=data)
+        # paste = requests.post("https://pastebin.com/api/api_post.php", data=data)
+        paste = Advpostsession("https://pastebin.com/api/api_post.php", data=data)
+        
 
         if "https://pastebin.com" in paste.text:
             return paste.text
