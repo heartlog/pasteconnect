@@ -44,6 +44,7 @@ def postsession(url, data=None, files=None):
         session.close()
     return response
 
+# Req post with random UA abd session close.
 def Advpostsession(url, data=None, files=None):
     session = requests.Session()
     ua = UserAgent()
