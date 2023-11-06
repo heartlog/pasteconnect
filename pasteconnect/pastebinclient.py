@@ -1,6 +1,9 @@
 import requests
 import os
 from .reqsession import reqsession, Advreqsession, postsession, Advpostsession
+from dotenv import load_dotenv
+load_dotenv()
+
 
 class PasteConn:
     """
