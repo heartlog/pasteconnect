@@ -55,7 +55,7 @@ class PasteConn:
         Hello
         This i's multiline text
         '''
-        client.create_paste(privacy, title, content)
+        client.create_paste(title, content, privacy)
         """
         if not all((self.api_key, self.user_key, privacy, title, content)):
             raise ValueError("API key, user key, privacy, title, and content must be specified.")
