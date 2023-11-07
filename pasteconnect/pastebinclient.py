@@ -177,5 +177,5 @@ def get_paste_key(url):
 # title = "My Paste Title"
 # content = "This is the content of my paste."
 # 
-# paste_url = pastebin.paste(privacy, title, content)
+# paste_url = pastebin.paste(title, content)
 # print(f"Paste created: {paste_url}")
