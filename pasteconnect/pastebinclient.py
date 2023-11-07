@@ -78,7 +78,7 @@ class PasteConn:
             return f"An error occurred: {paste.text}"
 
 # Advance usage
-    def create_paste_adv(self, privacy, title, content, expire="N", format="php"):
+    def create_paste_adv(self, title, content, privacy=1, expire="N", format="php"):
         """
         privacy = 1
         title = "Title of paste"
