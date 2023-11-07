@@ -47,7 +47,7 @@ class PasteConn:
             return f"[{self.username}] Invalid account."
 
 # Normal paste
-    def create_paste(self, privacy, title, content):
+    def create_paste(self, title, content, privacy=1):
         """
         privacy = 1
         title = "Title of paste"
