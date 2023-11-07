@@ -144,7 +144,7 @@ class PasteConn:
         else:
             return "Invalid URL"
 
-def get_raw(self, url):
+def get_raw(url):
     if 'pastebin.com' in url:
         parts = url.split('/')
         if len(parts) >= 4:
