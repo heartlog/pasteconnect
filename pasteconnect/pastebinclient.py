@@ -55,7 +55,7 @@ class PasteConn:
         Hello
         This i's multiline text
         '''
-        client.create_paste(title, content, privacy)
+        client.create_paste(title, content, privacy=1)
         """
         if not all((self.api_key, self.user_key, privacy, title, content)):
             raise ValueError("API key, user key, privacy, title, and content must be specified.")
@@ -86,7 +86,7 @@ class PasteConn:
         Hello
         This i's multiline text
         '''
-        client.create_paste_adv(privacy, title, content, expire"N", format="php")
+        client.create_paste_adv(title, content, privacy=1, expire"N", format="php")
         """
         if not all((self.api_key, self.user_key, privacy, title, content)):
             raise ValueError("API key, user key, privacy, title, and content must be specified.")
