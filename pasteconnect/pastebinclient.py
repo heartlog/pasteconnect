@@ -9,7 +9,7 @@ class PasteConn:
     """
     client = PastebinAPI(username, password, api_key)
     """
-    def __init__(self, username, password, api_key):
+    def __init__(self, username=None, password=None, api_key=None):
         self.username = username or os.environ['pastebin_username']
         self.password = password or os.environ['pastebin_password']
         self.api_key = api_key or os.environ['pastebin_key']
