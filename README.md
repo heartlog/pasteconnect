@@ -71,7 +71,7 @@ pastebin = PasteConn(username, password, api_key)
 pastebin = PasteConn() # with pre define env var
 ```
 
-
+## Check account existance
 #### `pastebin.check_account()`
 ![dash](https://img.shields.io/badge/-----grey)
 
