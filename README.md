@@ -89,7 +89,7 @@ result = pastebin.auth()
 print(result)  # Response: "user_key"
 ```
 
-#### `pastebin.create_paste(privacy, title, content)`
+#### `pastebin.create_paste(title, content, privacy=1)`
 ![privacy](https://img.shields.io/badge/privacy-pink)
 ![title](https://img.shields.io/badge/title-blue)
 ![content](https://img.shields.io/badge/content-purple)
