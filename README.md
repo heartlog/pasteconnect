@@ -82,6 +82,8 @@ print(result)  # Response: '[heartlog] is Valid Account. User key : "user_key"'
 ```
 
 ## Authentication
+To authenticate and get your `user_key`:
+
 #### `pastebin.auth()`
 ![dash](https://img.shields.io/badge/-----grey)
 
