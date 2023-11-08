@@ -120,9 +120,9 @@ print(result)  # Response: "Paste Removed"
 from pasteconnect import get_raw
 
 result = get_raw(url)
-print()
+print(result)
 ```
-
+### optional
 ```py
 url = "https://pastebin.com/kZATAWhe"
 result = pastebin.get_raw_content(url)
