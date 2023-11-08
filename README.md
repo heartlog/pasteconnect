@@ -17,7 +17,7 @@ $ pip install pasteconnect
 
 Install from source
 ```shell
-$ pip install git+https://github.com/heartlog/pasteconnect
+$ pip install git+https://github.com/heartlog/pasteconnect.git
 ```
 ## Getting Started
 > To get(create) your `username`, `password` » login to your [pastebin account](https://pastebin.com/signup)
