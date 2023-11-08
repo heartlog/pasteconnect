@@ -92,13 +92,14 @@ print(result)  # Response: "user_key"
 ```
 
 ## Creating a Paste
+
+You can create a paste on Pastebin with a title, content, and privacy level. Privacy levels can be 0 (public), 1 (unlisted), or 2 (private):
 #### `pastebin.create_paste(title, content, privacy=1)`
 ![privacy](https://img.shields.io/badge/privacy-green)
 ![title](https://img.shields.io/badge/title-blue)
 ![content](https://img.shields.io/badge/content-purple)
 
 ```py
-# 0 : public | 1 : unlisted | 2 : private
 privacy = 1 # (default - private)
 title = "Title of paste"
 content = """
