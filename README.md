@@ -47,7 +47,7 @@ print(f"Paste created: {paste_url}")
 To interact with PasteConnect, you need to initialize a client with your credentials:
 ### `pastebin = PasteConn(username, password, api_key)` ![Static Badge](https://img.shields.io/badge/Required-eb2525?style=for-the-badge)
 ```diff
--required for other modules to work
+-required for other methods to work
 ```
 
 [![Username](https://img.shields.io/badge/Username-blue)](#getting-started)
@@ -80,7 +80,7 @@ print(result)  # Response: '[heartlog] is Valid Account. User key : "user_key"'
 ```
 
 ## Authentication
-To authenticate and get your `user_key`:
+To authenticate and get your `user_key`, use the `auth()` method:
 
 #### `pastebin.auth()`
 ![dash](https://img.shields.io/badge/-----grey)
