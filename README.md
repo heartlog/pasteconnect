@@ -109,6 +109,8 @@ This is multiline text
 pastebin.create_paste(title, content, privacy=1)
 ```
 
+## Deleting a Paste
+
 #### `pastebin.delete_paste(url)`
 ![Static Badge](https://img.shields.io/badge/url-blue)
 
