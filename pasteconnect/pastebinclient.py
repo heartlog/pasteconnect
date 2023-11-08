@@ -49,7 +49,7 @@ class PasteConn:
 # Normal paste
     def create_paste(self, title, content, privacy=1):
         """
-        privacy = 1
+        privacy = 1 # private
         title = "Title of paste"
         content = '''
         Hello
