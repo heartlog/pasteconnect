@@ -62,11 +62,13 @@ print(f"Paste created: {paste_url}")
 Refer [Getting Started](#getting-started)
 
 ```py
-username = "heartlog"
+username = "username"
 password = "*******"
 api_key = "123456abcdefg"
 # Define Client
 pastebin = PasteConn(username, password, api_key)
+or 
+pastebin = PasteConn() # with pre define env var
 ```
 
 
