@@ -67,7 +67,7 @@ password = "*******"
 api_key = "123456abcdefg"
 # Define Client
 pastebin = PasteConn(username, password, api_key)
-or 
+# OR 
 pastebin = PasteConn() # with pre define env var
 ```
 
