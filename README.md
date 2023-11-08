@@ -83,7 +83,7 @@ print(result)  # Response: '[heartlog] is Valid Account. User key : "user_key"'
 #### `pastebin.auth()`
 ![dash](https://img.shields.io/badge/-----grey)
 
-Get user_key using give credentials.
+Get `user_key` using give credentials.
 ```py
 result = pastebin.auth()
 print(result)  # Response: "user_key"
