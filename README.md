@@ -80,12 +80,12 @@ Check validity of pastebin.com account.
 result = pastebin.check_account()
 print(result)  # Response: '[heartlog] is Valid Account. User key : "user_key"'
 ```
-#### `pastebin.authenticate()`
+#### `pastebin.auth()`
 ![dash](https://img.shields.io/badge/-----grey)
 
 Get user_key using give credentials.
 ```py
-result = pastebin.authenticate()
+result = pastebin.auth()
 print(result)  # Response: "user_key"
 ```
 
