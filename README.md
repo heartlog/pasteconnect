@@ -57,10 +57,11 @@ To interact with PasteConnect, you need to initialize a client with your credent
 Refer [Getting Started](#getting-started)
 
 ```py
-username = "username"
-password = "*******"
-api_key = "123456abcdefg"
-# Define Client
+username = "your_username"
+password = "your_password"
+api_key = "your_api_key"
+
+# Initialize the client
 pastebin = PasteConn(username, password, api_key)
 ```
 Alternatively, you can initialize with [predefined environment variables](https://rentry.co/setenv)
