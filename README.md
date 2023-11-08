@@ -29,7 +29,7 @@ from pasteconnect import PasteConn
 pastebin = PasteConn(username, password, api_key)
 ```
 > or 
-### Set env varible username, password, api_key
+### Set env varible -› username, password, api_key
 ```py
 pastebin = PasteConn()
 ```
