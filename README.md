@@ -62,7 +62,7 @@ api_key = "123456abcdefg"
 # Define Client
 pastebin = PasteConn(username, password, api_key)
 ```
-Alternatively, you can initialize with predefined environment variables
+Alternatively, you can initialize with [predefined environment variables](https://rentry.co/setenv)
 ```py
 pastebin = PasteConn() # with pre define env var
 ```
