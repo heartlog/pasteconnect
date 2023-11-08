@@ -24,6 +24,10 @@ $ pip install git+https://github.com/heartlog/pasteconnect
 >> after creating your account, [head over to the api documentation](https://pastebin.com/doc_api) and grab your `api_key` under __Your Unique Developer API Key__
 
 ## Usage example
+from pasteconnect import PasteConn 
+
+
+### 
 ```py
 from pasteconnect import PasteConn
 
@@ -38,7 +42,7 @@ title = "My Paste Title"
 content = "This is the content of my paste."
 
 # Paste text to pastebin
-paste_url = pastebin.create_paste(privacy, title, content)
+paste_url = pastebin.create_paste(title, content, privacy)
 print(f"Paste created: {paste_url}")
 ```
 
