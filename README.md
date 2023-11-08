@@ -117,6 +117,13 @@ print(result)  # Response: "Paste Removed"
 ![url](https://img.shields.io/badge/url-purple)
 
 ```py
+from pasteconnect import get_raw
+
+result = get_raw(url)
+print()
+```
+
+```py
 url = "https://pastebin.com/kZATAWhe"
 result = pastebin.get_raw_content(url)
 print(result)  # Response: "Content of paste"
