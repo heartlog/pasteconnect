@@ -14,7 +14,7 @@ You can install PasteConnect using `pip`:
 $ pip install pasteconnect
 ```
 
-Install from source repo
+Install from source repository
 ```shell
 $ pip install git+https://github.com/heartlog/pasteconnect.git
 ```
