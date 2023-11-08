@@ -9,11 +9,12 @@ paste code in [pastebin.com]() with api.
 Read text of pastebin paste.
 
 [![Licence](https://img.shields.io/pypi/l/pasteconnect)]()
+
 ## Installation
 **Python 3.7 or higher is required.**
 [![Python](https://img.shields.io/pypi/pyversions/pasteconnect?style=flat-square&logo=python&label=PYTHON&color=blue)](https://pypi.org/project/pasteconnect/)
 
-Install from PyPI
+You can install PasteConnect using pip:
 ```shell
 $ pip install pasteconnect
 ```
@@ -22,6 +23,7 @@ Install from source
 ```shell
 $ pip install git+https://github.com/heartlog/pasteconnect.git
 ```
+
 ## Getting Started
 > To get(create) your `username`, `password` » login to your [pastebin account](https://pastebin.com/signup)
 >> after creating your account, [head over to the api documentation](https://pastebin.com/doc_api) and grab your `api_key` under __Your Unique Developer API Key__
