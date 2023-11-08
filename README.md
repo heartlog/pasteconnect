@@ -122,7 +122,7 @@ print(result)  # Response: "Paste Removed"
 ```
 
 ## Get raw content
-To retrieve the raw content of a paste using its URL or ID:
+You can retrieve the raw content of a paste using it's URL or ID:
 #### `pastebin.get_raw_content(url)`
 
 ![url](https://img.shields.io/badge/url-purple)
