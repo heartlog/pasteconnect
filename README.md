@@ -137,7 +137,7 @@ print(result)
 Alternatively, you can use the `get_raw` function:
 
 ```py
-url = "https://pastebin.com/kZATAWhe"
+url = "https://pastebin.com/your_paste_id"
 result = pastebin.get_raw_content(url)
 print(result)  # Response: "Content of paste"
 ```
