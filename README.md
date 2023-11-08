@@ -43,6 +43,8 @@ print(f"Paste created: {paste_url}")
 
 
 ## Initialize client
+
+To interact with PasteConnect, you need to initialize a client with your credentials:
 ### `pastebin = PasteConn(username, password, api_key)` ![Static Badge](https://img.shields.io/badge/Required-eb2525?style=for-the-badge)
 ```diff
 -required for other modules to work
