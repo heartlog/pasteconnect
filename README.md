@@ -27,9 +27,9 @@ If you don't have these, you can obtain them by signing up for a [Pastebin accou
 ```py
 from pasteconnect import PasteConn
 
-# Sync Client
+# Initialize a PasteConnect client
 pastebin = PasteConn(username, password, api_key)
-# Account_status(check validity of account)
+# Check account validity
 account_status = pastebin.check_account()
 print(account_status)
 
