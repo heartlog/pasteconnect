@@ -24,12 +24,15 @@ $ pip install git+https://github.com/heartlog/pasteconnect
 >> after creating your account, [head over to the api documentation](https://pastebin.com/doc_api) and grab your `api_key` under __Your Unique Developer API Key__
 
 ## Client Example
+```py
 from pasteconnect import PasteConn 
-
 pastebin = PasteConn(username, password, api_key)
+```
 > or 
-> set env varible username, password, api_key
-pastebin = PasteConn(username, password, api_key)
+### Set env varible username, password, api_key
+```py
+pastebin = PasteConn()
+```
 
 ### Usage
 ```py
