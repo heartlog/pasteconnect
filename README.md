@@ -40,11 +40,9 @@ content = "This is the content of my paste."
 # Paste text to pastebin
 paste_url = pastebin.create_paste(title, content, privacy=1)
 print(f"Paste created: {paste_url}")
-```
 
 ## Initialize client
 ### `pastebin = PasteConn(username, password, api_key)` ![Static Badge](https://img.shields.io/badge/Required-eb2525?style=for-the-badge)
-```
 
 ```diff
 -required for other modules to work
