@@ -110,6 +110,7 @@ pastebin.create_paste(title, content, privacy=1)
 ```
 
 ## Deleting a Paste
+To delete a paste, provide its URL or ID using the `delete_paste(url)` method:
 
 #### `pastebin.delete_paste(url)`
 ![Static Badge](https://img.shields.io/badge/url-blue)
