@@ -67,7 +67,9 @@ password = "*******"
 api_key = "123456abcdefg"
 # Define Client
 pastebin = PasteConn(username, password, api_key)
-# OR 
+```
+Alternatively, you can initialize with predefined environment variables
+```py
 pastebin = PasteConn() # with pre define env var
 ```
 
