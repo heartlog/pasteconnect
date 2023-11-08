@@ -26,6 +26,10 @@ $ pip install git+https://github.com/heartlog/pasteconnect
 ## Usage example
 from pasteconnect import PasteConn 
 
+pastebin = PasteConn(username, password, api_key)
+#### or ###
+set env varible username, password, api_key
+pastebin = PasteConn(username, password, api_key)
 
 ### 
 ```py
@@ -37,12 +41,11 @@ pastebin = PasteConn(username, password, api_key)
 account_status = pastebin.check_account()
 print(account_status)
 
-privacy = 0  # Set the privacy level (0 for public)
 title = "My Paste Title"
 content = "This is the content of my paste."
 
 # Paste text to pastebin
-paste_url = pastebin.create_paste(title, content, privacy)
+paste_url = pastebin.create_paste(title, content, privacy=1)
 print(f"Paste created: {paste_url}")
 ```
 
