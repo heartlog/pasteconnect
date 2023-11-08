@@ -126,7 +126,9 @@ from pasteconnect import get_raw
 result = get_raw(url)
 print(result)
 ```
-### optional
+
+Alternatively, you can use the `get_raw` function:
+
 ```py
 url = "https://pastebin.com/kZATAWhe"
 result = pastebin.get_raw_content(url)
