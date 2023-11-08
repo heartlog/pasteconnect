@@ -74,7 +74,6 @@ You can check the validity of your Pastebin account using the following method:
 #### `pastebin.check_account()`
 ![dash](https://img.shields.io/badge/-----grey)
 
-Check validity of pastebin.com account.
 ```py
 result = pastebin.check_account()
 print(result)  # Response: '[heartlog] is Valid Account. User key : "user_key"'
