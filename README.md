@@ -114,6 +114,8 @@ result = pastebin.delete_paste(url)
 print(result)  # Response: "Paste Removed"
 ```
 
+## Get raw content
+To retrieve the raw content of a paste using its URL or ID:
 #### `pastebin.get_raw_content(url)`
 
 ![url](https://img.shields.io/badge/url-purple)
