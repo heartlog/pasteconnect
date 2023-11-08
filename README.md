@@ -10,13 +10,13 @@ PasteConnect is a Python library for interacting with Pastebin. It allows you to
 [![Python](https://img.shields.io/pypi/pyversions/pasteconnect?style=flat-square&logo=python&label=PYTHON&color=blue)](https://pypi.org/project/pasteconnect/)
 
 You can install PasteConnect using `pip`:
-```shell
-$ pip install pasteconnect
+```diff
++$ pip install pasteconnect
 ```
 
 Install from source repository
-```shell
-$ pip install git+https://github.com/heartlog/pasteconnect.git
+```diff
++$ pip install git+https://github.com/heartlog/pasteconnect.git
 ```
 
 ## Getting Started
