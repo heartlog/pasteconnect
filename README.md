@@ -36,7 +36,7 @@ print(account_status)
 title = "My Paste Title"
 content = "This is the content of my paste."
 
-# Paste text to pastebin
+# Create a paste on Pastebin
 paste_url = pastebin.create_paste(title, content, privacy=1)
 print(f"Paste created: {paste_url}")
 ```
