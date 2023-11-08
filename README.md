@@ -70,6 +70,7 @@ pastebin = PasteConn() # with pre define env var
 ```
 
 ## Check account existance
+You can check the validity of your Pastebin account using the following method:
 #### `pastebin.check_account()`
 ![dash](https://img.shields.io/badge/-----grey)
 
