@@ -43,6 +43,7 @@ print(f"Paste created: {paste_url}")
 
 ## Initialize client
 ### `pastebin = PasteConn(username, password, api_key)` ![Static Badge](https://img.shields.io/badge/Required-eb2525?style=for-the-badge)
+```
 
 ```diff
 -required for other modules to work
