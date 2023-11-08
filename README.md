@@ -3,8 +3,7 @@
 PasteConnect is a Python library for interacting with Pastebin. It allows you to check account validity, authenticate, create pastes, delete pastes, and retrieve raw paste content.
 
 [![PyPI](https://img.shields.io/pypi/v/pasteconnect?style=for-the-badge&logo=pypi&label=PYPI&color=blue)](https://pypi.org/project/pasteconnect/)
-
-[![Licence](https://img.shields.io/pypi/l/pasteconnect)]()
+[![Licence](https://img.shields.io/pypi/l/pasteconnect?style=for-the-badge)](https://github.com/heartlog/pasteconnect/blob/main/LICENSE)
 
 ## Installation
 **Python 3.7 or higher is required.**
