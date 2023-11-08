@@ -94,13 +94,13 @@ print(result)  # Response: "user_key"
 
 ```py
 # 0 : public | 1 : unlisted | 2 : private
-privacy = 1
+privacy = 1 # (default - private)
 title = "Title of paste"
 content = """
 Hello
 This is multiline text
 """
-pastebin.create_paste(privacy, title, content)
+pastebin.create_paste(title, content, privacy=1)
 ```
 
 #### `pastebin.delete_paste(url)`
