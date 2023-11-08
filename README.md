@@ -19,10 +19,9 @@ Install from source repository
 +$ pip install git+https://github.com/heartlog/pasteconnect.git
 ```
 
-## Getting Started
-> To get(create) your `username`, `password` » login to your [pastebin account](https://pastebin.com/signup)
->> after creating your account, [head over to the api documentation](https://pastebin.com/doc_api) and grab your `api_key` under __Your Unique Developer API Key__
----
+To use PasteConnect, you need your Pastebin credentials, which include your `username`, `password`, and `api_key`.
+If you don't have these, you can obtain them by signing up for a [Pastebin account](https://pastebin.com/signup) and generating an `api_key` from the [Pastebin API documentation](https://pastebin.com/doc_api).
+
 
 ### Usage
 ```py
