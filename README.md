@@ -16,7 +16,7 @@ $ pip install pasteconnect
 
 Install from source repo
 ```shell
-$ pip install git+https://github.com/heartlog/pasteconnect.git
+pip install git+https://github.com/heartlog/pasteconnect.git
 ```
 
 ## Getting Started
