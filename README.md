@@ -10,12 +10,12 @@ PasteConnect is a Python library for interacting with Pastebin. It allows you to
 **Python 3.7 or higher is required.**
 [![Python](https://img.shields.io/pypi/pyversions/pasteconnect?style=flat-square&logo=python&label=PYTHON&color=blue)](https://pypi.org/project/pasteconnect/)
 
-You can install PasteConnect using pip:
+You can install PasteConnect using `pip`:
 ```shell
 $ pip install pasteconnect
 ```
 
-Install from source
+Install from source repo
 ```shell
 $ pip install git+https://github.com/heartlog/pasteconnect.git
 ```
