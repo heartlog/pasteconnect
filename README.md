@@ -40,7 +40,7 @@ content = "This is the content of my paste."
 paste_url = pastebin.create_paste(title, content, privacy=1)
 print(f"Paste created: {paste_url}")
 ```
-
+---
 
 ## Initialize client
 
@@ -69,6 +69,7 @@ Alternatively, you can initialize with [predefined environment variables](https:
 pastebin = PasteConn() # with pre define env var
 ```
 
+---
 ## Check account existance
 You can check the validity of your Pastebin account using the following method:
 #### `pastebin.check_account()`
