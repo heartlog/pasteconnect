@@ -101,7 +101,7 @@ You can create a paste on Pastebin with a title, content, and privacy level. Pri
 ![content](https://img.shields.io/badge/content-purple)
 
 ```py
-privacy = 1 # (default - private)
+privacy = 1 # (default - public/0)
 title = "Title of paste"
 content = """
 Hello
